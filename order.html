@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KADE 101</title>
+        <link rel="stylesheet" href="order.css">
+    </head>
+    <body id="body1">
+            <header class="header_1">
+                <div class="flex-container">
+                    <a href="index.html"><img class="logo" src="Images/Kadelogo.png" alt="mainlogo" length="100" width="100" ></a>
+                    <nav class="navbar">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="order.html">Order</a></li>
+                            <li><a href="aboutus.html">About us</a></li>  
+                            <li><a href="register.html">Register</a></li>
+                        </ul>   
+                        <h3 class="slogan">From Farm to Table, We've Got Your Goods Covered!</h3>
+                    </nav>
+                </div>
+            </header>
+            <br>  
+            <h1 class="h1">Order Now!</h1>
+            <div class="flex-container">
+            <nav class="navbar1">
+                <ul class="ul1">
+                    <li><a href="diary.html">Dairy Products</a></li>
+                    <li><a href="vege.html">Fruits and Vegetables</a></li>
+                    <li><a href="skin.html">Cosmetics and Skin Care</a></li>
+                    <li><a href="meat.html">Meat and Sea Food</a></li>
+                    <li><a href="bake.html">Baking and Cooking Items</a></li>
+                </ul>
+            </div> 
+            </nav><br> 
+        </section>
+        <section class="categories">
+            <fieldset class="category1">
+                <legend class="l1">Dairy Products</legend>
+                <div class="form-container">
+                    <label for="dairylbl" class="l2">Dairy Products : </label><br><br>
+                    <select name="dairylbl" id="dropdown">
+                        <option value="">Fresh Milk 500ml</option>
+                        <option value="">4 Flavours Yogurt</option>
+                        <option value="">Butter 350g</option>
+                        <option value="">Shredded Cheese 400g</option>
+                        <option value="">Whipped Cream 450ml</option>
+                        <option value="">Curd 400g</option>
+                        <option value="">Yogurt Drink 3 pack</option>
+                        <option value="">Ice Cream 3 pack</option> 
+                    </div>
+                </select><br><br>
+                <span class="form-container">
+                    <label for="quality" class="qualitylbl">Quantity : </label>
+                    <input type="number" min="0" placeholder="0" id="qualityinput">
+                </span>
+                <br><br>
+                <label for="currentPrice"class="currentPrice">Current Price(LKR) : </label>
+                <input type="number" min="0" readonly value="0" id="currentPriceinput">
+                <br><br>
+                <div class="button-container">
+                    <button id="clearBtn">Clear</button>
+                    <button id="addtocartbtn">Add to Cart</button>
+                </div>
+            </fieldset><br><br><br>
+            <fieldset class="category1">
+                <legend class="l1">Vegetables and Fruits</legend>
+                <div class="form-container" id="form-container1">
+                    <label for="veglbl" class="l2">Vegetables and Fruits : </label>
+                    <select name="veglbl" id="">
+                        <option value="">Banana 500g</option>
+                        <option value="">Green Apple 100g</option>
+                        <option value="">Red Apple 100g</option>
+                        <option value="">Oranges 200g</option>
+                        <option value="">Strawberry 650g</option>
+                        <option value="">Grapes 500g</option>
+                        <option value="">Carrots 1Kg</option>
+                        <option value="">Garlic 2Kg</option>
+                        <option value="">Mini Corn Cobs</option>
+                        <option value="">Bell Pepper 500g</option>
+                        <option value="">Tomatoes 450g</option>
+                        <option value="">Spinach 100g</option>
+                        <option value="">Pickle 500g</option>
+                        <option value="">Lettuce 350g</option>
+                        <option value="">Red Onion 1Kg</option>
+                        <option value="">Green Beans 500g</option>
+                </div>
+                </select><br> <br>
+                <label for="quality" class="l2">Quantity : </label>
+                <input type="number" min="0" placeholder="0" id="qualityinput" >
+                <br><br>
+                <label for="currentPrice" class="currentPrice" class="l2">Current Price(LKR) : </label>
+                <input type="number" min="0" readonly value="0"  id="currentPriceinput">
+                <br><br>
+                <div class="button-container">
+                    <button id="clearBtn">Clear</button>
+                    <button id="addtocartbtn">Add to Cart</button>
+                </div>
+            </fieldset><br><br><br>
+            <fieldset class="category1">
+                <legend class="l1">Cosmetics and Skin care</legend>
+                <div class="form-container" id="form-container1">
+                    <label for="coslbl" class="l2">Cosmetics and Skin care : </label>
+                    <select name="coslbl" id="">
+                        <option value="">MAC Lipstick</option>
+                        <option value="">MAC Eyeliner</option>
+                        <option value="">MAC Blush</option>
+                        <option value="">MAC Blush Set</option>
+                        <option value="">Face Wash</option>
+                        <option value="">Shower Gel</option>
+                        <option value="">Face Serum</option>
+                        <option value="">4 Pieces Soap</option>
+                </div>
+                </select><br> <br>
+                <label for="quality" class="l2">Quantity : </label>
+                <input type="number" min="0" placeholder="0" id="qualityinput" >
+                <br><br>
+                <label for="currentPrice" class="l2" class="currentPrice">Current Price(LKR) : </label>
+                <input type="number" min="0" readonly value="0" id="currentPriceinput">
+                <br><br>
+                <div class="button-container">
+                    <button id="clearBtn">Clear</button>
+                    <button id="addtocartbtn">Add to Cart</button>
+                </div>
+            </fieldset><br><br><br>
+            <fieldset class="category1">
+                <legend class="l1">Meat and Sea Food</legend>
+                <div class="form-container" id="form-container1">
+                    <label for="coslbl" class="l2">Meat and Sea Food : </label>
+                    <select name="coslbl" id="">
+                        <option value="">Chicken 1kg</option>
+                        <option value="">Turkey 1kg</option>
+                        <option value="">Beef 1kg</option>
+                        <option value="">Pork 1kg</option>
+                        <option value="">Lamb Chops 1kg</option>
+                        <option value="">Shrimp 1kg</option>
+                        <option value="">Squid 1kg</option>
+                        <option value="">Salmon 1kg</option>
+                </div>
+                </select><br> <br>
+                <label for="quality" class="l2">Quantity : </label>
+                <input type="number" min="0" placeholder="0" id="qualityinput" >
+                <br><br>
+                <label for="currentPrice" class="l2" class="currentPrice">Current Price(LKR) : </label>
+                <input type="number" min="0" readonly value="0" id="currentPriceinput">
+                <br><br>
+                <div class="button-container">
+                    <button id="clearBtn">Clear</button>
+                    <button id="addtocartbtn">Add to Cart</button>
+                </div>
+            </fieldset><br><br><br>
+            <fieldset class="category1">
+                <legend class="l1">Baking and Cooking Items</legend>
+                <div class="form-container" id="form-container1">
+                    <label for="coslbl" class="l2">Baking and Cooking Items : </label>
+                    <select name="coslbl" id="">
+                        <option value="">Olive Oil 750ml</option>
+                        <option value="">Black Pepper 500g</option>
+                        <option value="">Paprika 500g</option>
+                        <option value="">Baking Powder 200g</option>
+                        <option value="">Vanilla Extract 60ml</option>
+                        <option value="">Dry Yeast 100g</option>
+                        <option value="">Sugar 1kg</option>
+                        <option value="">Flour 1kg</option>
+                </div>
+                </select><br> <br>
+                <label for="quality" class="l2">Quantity : </label>
+                <input type="number" min="0" placeholder="0" id="qualityinput" >
+                <br><br>
+                <label for="currentPrice" class="l2" class="currentPrice">Current Price(LKR) : </label>
+                <input type="number" min="0" readonly value="0" id="currentPriceinput">
+                <div class="button-container">
+                    <button id="clearBtn">Clear</button>
+                    <button id="addtocartbtn">Add to Cart</button>
+                </div>
+            </fieldset><br><br><br>
+        </section>
+        <center><h1>Order Summary</h1></center>
+        <table id="order-summary">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table><br><br><br><br><br><br>
+        <center>
+            <button class="btn1" id="displayTotalBtn">Display Total</button>
+            <button class="btn1" id="addToFavouritesBtn">Add to Favourites</button>
+            <button class="btn1" id="applyFavouritesBtn">Apply Favourites</button>
+            <button class="btn1" id="clearCartBtn">Clear Cart</button>
+        </center>
+        <p class="tot" id="totalPrice">Total Price: 0 LKR</p>
+        <a class="btn2" id="paynowBtn" href="details.html">Pay Now</a>
+        <br><br>
+        <section>
+            <footer>
+                <div id="box-container">
+                <div class="footer-box">
+                    <div>
+                        <h2 class="h2">KADE 101</h2>
+                        <p class="p2"> 69 Hyde Park Corner, <br>Colombo 00200</p>
+                        <p class="p2">Contact Number: 011 269 6969</p>
+                    </div>
+                    <div>
+                        <h3 class="h3">CATERGORIES</h3><br>
+                        <ul class="list">
+                            <li>Dairy Products</li><br>
+                            <li>Fruits and Vegetables</li><br>
+                            <li>Cosmetics</li>
+                        </ul>
+                    </div>
+                    <div class="flex">
+                        <h3 class="head">CONTACT</h3>
+                        <ol>
+                            <li>0112-123-123</li><br><br>
+                            <li class="mail"><a href="mailto:kade101@gmail.com">kade101@gmail.com</a></li>
+                        </ol>
+                    </div>
+                    <div class="flex1">
+                        <img class="logo1" alt="Logo" src="Images/Kadelogo.png" width="100" length="100">
+                    </div>
+                </div>      
+                </div>
+            </footer>
+        </section>
+    </body>
+    <script src="script.js"></script>
+</html>

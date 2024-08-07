@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KADE 101</title>
+        <link rel="stylesheet" href="order.css">
+    </head>
+    <body id="body1">
+            <header class="header_1">
+                <div class="flex-container">
+                    <a href="index.html"><img class="logo" src="Images/Kadelogo.png" alt="mainlogo" length="100" width="100" ></a>
+                    <nav class="navbar">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="order.html">Order</a></li>
+                            <li><a href="aboutus.html">About us</a></li>  
+                            <li><a href="register.html">Register</a></li>
+                        </ul>   
+                        <h3 class="slogan">From Farm to Table, We've Got Your Goods Covered!</h3>
+                    </nav>
+                </div>
+            </header>
+            <br>  
+            <h1 class="h1">Order Now!</h1>
+            <div class="flex-container">
+            <nav class="navbar1">
+                <ul class="ul1">
+                    <li><a href="diary.html">Dairy Products</a></li>
+                    <li><a href="vege.html">Fruits and Vegetables</a></li>
+                    <li><a href="skin.html">Cosmetics and Skin Care</a></li>
+                    <li><a href="meat.html">Meat and Sea Food</a></li>
+                    <li><a href="bake.html">Baking and Cooking Items</a></li>
+                </ul>
+            </div> 
+            </nav><br> 
+            <section>
+                <div class="grid-container">
+                    
+                    <form class="form-container1">
+                        <legend class="l1">Order Details</legend>
+                        <div class="full-width">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your Name">
+                        </div>
+                        <div class="full-width">
+                            <label for="address">Address:</label>
+                            <input type="text" id="address" name="address" placeholder="Enter your Address">
+                        </div>
+                        <div>
+                            <label for="contact">Contact Number:</label>
+                            <input type="tel" id="contact" name="contact" placeholder="Enter your Contact Number">               
+                        </div>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your Email">
+                        </div>
+                        <div>
+                            <label for="delivery date">Delivery Date:</label>
+                            <input type="date" id="delivery-date" name="delivery-date" required>
+                        </div>
+                        <div>
+                            <label for="delivery-method">Delivery Method:</label>
+                            <select id="delivery-method" name="delivery-method" required>
+                                <option value="pick-up">Pick Up</option>
+                                <option value="delivery">Delivery</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="time-slot">Preferred Delivery Time Slot:</label>
+                            <select id="time-slot" name="time-slot">
+                                <option value="morning">Morning (8 AM - 12 PM)</option>
+                                <option value="afternoon">Afternoon (12 PM - 4 PM)</option>
+                                <option value="evening">Evening (4 PM - 8 PM)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="payment=method">Payment:</label>
+                            <select id="payment-method" name="payment-method">
+                                <option value="cash">Cash</option>
+                                <option value="card">Card</option>
+                            </select>
+                        </div>
+                        <div class="full-width">
+                            <div class="button">
+                                <button type="clear">Clear</button>
+                                <button type="pay">Pay</button>
+                            </div>
+                        </div>
+                    </form> 
+                </div>
+            </section>
+        </body>
+        <section>
+            <footer>
+                <div id="box-container">
+                <div class="footer-box">
+                    <div>
+                        <h2 class="h2">KADE 101</h2>
+                        <p class="p2"> 69 Hyde Park Corner, <br>Colombo 00200</p>
+                        <p class="p2">Contact Number: 011 269 6969</p>
+                    </div>
+                    <div>
+                        <h3 class="h3">CATERGORIES</h3><br>
+                        <ul class="list">
+                            <li>Dairy Products</li><br>
+                            <li>Fruits and Vegetables</li><br>
+                            <li>Cosmetics</li>
+                        </ul>
+                    </div>
+                    <div class="flex">
+                        <h3 class="head">CONTACT</h3>
+                        <ol>
+                            <li>0112-123-123</li><br><br>
+                            <li class="mail"><a href="mailto:kade101@gmail.com">kade101@gmail.com</a></li>
+                        </ol>
+                    </div>
+                    <div class="flex1">
+                        <img class="logo1" alt="Logo" src="Images/Kadelogo.png" width="100" length="100">
+                    </div>
+                </div>      
+                </div>
+            </footer>
+        </section>
+    </body>
+    <script src="script.js"></script>
+</html>
+        
